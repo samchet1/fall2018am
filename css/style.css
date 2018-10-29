@@ -1,0 +1,51 @@
+table, td, th {
+    border: 2px solid #145114; /* Adds border to table and cells*/
+    border-collapse: collapse; /* spacing between borders*/
+}
+
+tr:nth-child(even) {
+   background-color: #b1b5b1; 
+}
+
+tr:nth-child(odd) {
+   background-color: #F0F8EA; 
+}
+
+tr:last-child {
+   background-color: #EB8467; 
+}
+
+
+
+th {
+    font-weight: normal;
+    font-family: verdana;
+    padding: 12px;
+    background-color:#C7DAB2;
+}
+
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: blue;
+}
+
+li:nth-child(3) {
+    color: orange;
+}
+
+
+p:first-child {
+    background: yellow;
+}
+
+    /*FORMS*/ 
+input {
+    margin-bottom: 15px;
+}
+
+input[value=fName] {
+    width: 150px;
+}
